@@ -30,17 +30,14 @@
         /// <param name="min">Smallest permissible value</param>
         /// <param name="max">Largest permissible value</param>
         /// <returns>The user input as an integer</returns>
-        public static int AskForNumberInRange(string text, int min, int max)
-        {
-            throw new NotImplementedException();
-        }
+        public static int AskForNumberInRange(string text, int min, int max) => throw new NotImplementedException();
     }
 
     static class Program
     {
         static void Main()
         {
-            /*
+            
             const int Min = 0;
             const int Max = 10;
             const int PrintOffset = 4;
@@ -58,7 +55,7 @@
             // Verify original and replicated array are the same
             for (int index = 0; index < size; ++index)
                 Console.WriteLine($"Original {original[index],-PrintOffset}  {copy[index],4} Copy");
-            */
+            
         }
     }
 }
