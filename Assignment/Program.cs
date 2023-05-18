@@ -1,5 +1,5 @@
 ﻿using System;
-// New Assignment 1 After Update
+// An New Assignment 1 After Update
 namespace Assignment
 {
     public static class ArrayReplicator
